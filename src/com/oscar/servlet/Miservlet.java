@@ -33,7 +33,7 @@ public class Miservlet extends HttpServlet {
 		PrintWriter out = response.getWriter(); // permite crear y escribir arvhivos
 		
 		out.print("<html><body>");
-		out.print("<h1>¿Quieres saber la hora? pincha </h1>");
+		out.print("<h1>¿Quieres saber la hora? <a href=\"http://localhost:8080/Cacapp/Pagina\"> pincha</a></h1>");
 		out.print("</body></html>");
 	}
 
